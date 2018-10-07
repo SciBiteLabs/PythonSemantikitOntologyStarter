@@ -169,6 +169,11 @@ class OntologyAPI(object):
         return values
 
     def getRDFSLabel(self, subject):
+        '''
+        Get the RDFS label for a given class
+        :param subject:
+        :return:
+        '''
         results = self.rdfGraph.label(subject)
         return results
 
