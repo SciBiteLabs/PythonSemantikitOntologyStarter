@@ -13,3 +13,8 @@ __pycache__/
 *$py.class
 /venv/
 /venv/*
+/venv/include/
+/venv/pip-selfcheck.json
+/venv/bin/
+/venv/lib/
+/venv/.Python
