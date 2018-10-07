@@ -1,0 +1,12 @@
+**/*.docx
+**/*.pdf
+*.pyc
+.DS_Store
+**/.idea
+**/tmp
+
+
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
