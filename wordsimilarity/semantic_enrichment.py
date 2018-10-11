@@ -3,7 +3,7 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-semantikit_server = "http://ugm.scibite.com:8090/api/Synonym%20suggestions/1.0/suggest_synonyms"
+semantikit_server = "http://ugm.scibite.com/api/Synonym%20suggestions/1.0/suggest_synonyms"
 
 
 def get_similar_word(word, limit="10", sources="MedLine_Phrased,MedLine_Basic"):
